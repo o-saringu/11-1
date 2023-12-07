@@ -1,7 +1,14 @@
 <!DOCTYPE html>
+<html lang="jp">
+
 <head>
-<meta charset="UTF=8">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=M+PLUS+1p:wght@500&family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,23 +29,23 @@
 	<div class="yoko1">
 	<div class="komidasi2"><p>サンプルコード</div>
 	<div class="code">
-		<p>　　	float[] x=new float[3000];
+		<p>　　	<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >float</a>[] x=new <a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >float</a>[3000];
 		<p>　　	　
-		<p>　　	void setup(){
-		<p>　　	　size(240, 120);　
-		<p>　　	　noStroke();
-		<p>　　	　fill(255, 200);
-		<p>　　	　for(int i=0; i<x.length; i++){
-		<p>　　	　　x[i]=random(-1000, 200);
+		<p>　　	<a href="https://o-saringu.github.io/5-2/"target="_blank" rel="noopener noreferrer" >void setup()</a>{
+		<p>　　	　<a href="https://o-saringu.github.io/size/"target="_blank" rel="noopener noreferrer" >size</a>(240, 120);　
+		<p>　　	　<a href="https://o-saringu.github.io/stroke/"target="_blank" rel="noopener noreferrer" >noStroke()</a>;
+		<p>　　	　<a href="https://o-saringu.github.io/fill/"target="_blank" rel="noopener noreferrer" >fill</a>(255, 200);
+		<p>　　	　<a href="https://o-saringu.github.io/4-5/"target="_blank" rel="noopener noreferrer" >for</a>(<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >int</a> i=0; i<x.length; i++){
+		<p>　　	　　x[i]=<a href="https://o-saringu.github.io/8-5/"target="_blank" rel="noopener noreferrer" >random</a>(-1000, 200);
 		<p>　　	　}
 		<p>　　	}
 		<p>　　　
-		<p>　　	void draw(){
-		<p>　　	　background(0);　
-		<p>　　	　for(int i=0; i<x.length; i++){
+		<p>　　	<a href="https://o-saringu.github.io/5-1/"target="_blank" rel="noopener noreferrer" >void draw()</a>{
+		<p>　　	　<a href="https://o-saringu.github.io/background/"target="_blank" rel="noopener noreferrer" >background</a>(0);　
+		<p>　　	　<a href="https://o-saringu.github.io/4-5/"target="_blank" rel="noopener noreferrer" >for</a>(<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >int</a> i=0; i<x.length; i++){
 		<p>　　	　　x[i]+=0.5;
-		<p>　　	　　float y=i*0.4;
-		<p>　　	　　arc(x[i], y, 12, 12, 0.52, 5.76);
+		<p>　　	　　<a href="https://o-saringu.github.io/de-ta/"target="_blank" rel="noopener noreferrer" >float</a> y=i*0.4;
+		<p>　　	　　<a href="https://o-saringu.github.io/arc/"target="_blank" rel="noopener noreferrer" >arc</a>(x[i], y, 12, 12, 0.52, 5.76);
 		<p>　　	　}
 		<p>　　	}
 	</div>
@@ -49,13 +56,13 @@
 <div class="komidasi3"><p>説明文</div>
 <div class="ep">
 	<p>　配列は、沢山の変数を管理することができる。
-	<p>　配列の詳しい説明はコチラ。
+	<p>　配列の詳しい説明は<a href="https://o-saringu.github.io/hairetu/"target="_blank" rel="noopener noreferrer" >コチラ</a>。
 	<p>　
 	<p>　今回のプログラムでは、3000個の図形が左から右に移動するプログラムである。
-	<p>　3000個の変数を全て書くのは無謀であるため、配列を使用し管理している。
+	<p>　3000個の<a href="https://o-saringu.github.io/4-1/"target="_blank" rel="noopener noreferrer" >変数</a>を全て書くのは無謀であるため、配列を使用し管理している。
 	<p>
-	<p>　補足：まずsetup()で3000個の図形をランダム関数により様々な場所に生み出している。 
-	<p>　　　　draw()では生みだした図形を左から右へ移動する処理を行っている。
+	<p>　補足：まず<a href="https://o-saringu.github.io/5-2/"target="_blank" rel="noopener noreferrer" >setup()</a>で3000個の図形を<a href="https://o-saringu.github.io/8-5/"target="_blank" rel="noopener noreferrer" >random関数</a>により様々な場所に生み出している。 
+	<p>　　　　<a href="https://o-saringu.github.io/5-1/"target="_blank" rel="noopener noreferrer" >draw()</a>では生みだした図形を左から右へ移動する処理を行っている。
 </div>
 
 </body>
